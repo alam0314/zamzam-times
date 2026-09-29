@@ -88,7 +88,7 @@ onMounted(() => {
 
           <label class="w-24 h-24 rounded-xl border-2 border-dashed border-ink-900/15 hover:border-violet-500 flex flex-col items-center justify-center gap-1 text-ink-400 hover:text-violet-600 cursor-pointer transition">
             <IconUpload class="w-5 h-5" />
-            <span class="text-[10px] font-medium">{{ uploading ? 'Uploadingâ€¦' : 'Upload' }}</span>
+            <span class="text-[10px] font-medium">{{ uploading ? 'Uploading...' : 'Upload' }}</span>
             <input ref="fileInput" type="file" accept="image/*" multiple class="hidden" @change="handleFiles" />
           </label>
         </div>

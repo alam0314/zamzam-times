@@ -13,7 +13,7 @@ const clientStore = useClientStore()
         <span class="section-label mb-3 justify-center">Our Track Record</span>
         <h1 class="font-display text-3xl md:text-4xl font-bold text-white mb-3">Businesses That Trust Zam Zam Times</h1>
         <p class="text-ink-300 max-w-2xl mx-auto">
-          From retail chains to hotel groups and corporate gifting programs â€” here are some of
+          From retail chains to hotel groups and corporate gifting programs — here are some of
           the businesses we've completed bulk deals with.
         </p>
       </div>

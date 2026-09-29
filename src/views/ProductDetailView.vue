@@ -60,7 +60,7 @@ function askOnWhatsApp() {
 
         <div class="card bg-ink-50 !shadow-none border-dashed mb-6">
           <p class="text-sm text-ink-500 mb-1">Wholesale Price</p>
-          <p class="font-display text-2xl font-bold text-ink-900">Revealed on WhatsApp ðŸ’¬</p>
+          <p class="font-display text-2xl font-bold text-ink-900">Revealed on WhatsApp 💬</p>
           <p class="text-xs text-ink-400 mt-1">Share your quantity and we'll send you the best bulk price directly.</p>
         </div>
 
@@ -72,7 +72,7 @@ function askOnWhatsApp() {
 
         <div class="flex flex-wrap gap-3">
           <button class="btn-primary" @click="addToQuoteList">
-            {{ added ? 'âœ“ Added to Quote List' : 'Add to Quote List' }}
+            {{ added ? '✓ Added to Quote List' : 'Add to Quote List' }}
           </button>
           <button class="btn-whatsapp" @click="askOnWhatsApp">
             <IconWhatsapp class="w-4 h-4" /> Get Price on WhatsApp

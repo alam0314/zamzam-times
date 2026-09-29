@@ -43,7 +43,7 @@ function submit() {
         <button class="btn-primary w-full" type="submit">Enter Admin Panel</button>
       </form>
       <p class="text-center text-ink-500 text-xs mt-5">
-        <RouterLink to="/" class="hover:text-violet-400 transition">â† Back to storefront</RouterLink>
+        <RouterLink to="/" class="hover:text-violet-400 transition">← Back to storefront</RouterLink>
       </p>
     </div>
   </div>

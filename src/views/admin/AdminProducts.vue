@@ -46,7 +46,7 @@ function remove(product) {
             <td class="px-5 py-3 text-ink-500">{{ p.moq }} pcs</td>
             <td class="px-5 py-3">
               <span v-if="p.featured" class="chip chip-active !bg-violet-500 !text-ink-950 !border-violet-500 !py-0.5 !px-2.5 text-xs">Yes</span>
-              <span v-else class="text-ink-400 text-xs">â€”</span>
+              <span v-else class="text-ink-400 text-xs">—</span>
             </td>
             <td class="px-5 py-3 text-right whitespace-nowrap">
               <button class="btn-ghost !px-2" @click="router.push(`/admin/products/${p.id}/edit`)"><IconEdit class="w-4 h-4" /></button>
@@ -55,7 +55,7 @@ function remove(product) {
           </tr>
         </tbody>
       </table>
-      <p v-if="!store.products.length" class="text-center text-ink-400 py-16">No products yet â€” add your first one.</p>
+      <p v-if="!store.products.length" class="text-center text-ink-400 py-16">No products yet — add your first one.</p>
     </div>
   </div>
 

@@ -46,7 +46,7 @@ const clients = clientStore.clients
             <span class="text-violet-500">Built for Business.</span>
           </h1>
           <p class="text-ink-300 text-lg mb-8 max-w-lg">
-            Zam Zam Times supplies premium wall clocks in bulk â€” fully customizable branding,
+            Zam Zam Times supplies premium wall clocks in bulk - fully customizable branding,
             pan-India delivery, and pricing tailored to your order, shared directly on WhatsApp.
           </p>
 

@@ -44,7 +44,7 @@ import AnimatedClock from './AnimatedClock.vue'
       </div>
     </div>
     <div class="text-center text-xs text-ink-500 py-5 border-t border-white/5 relative">
-      Â© {{ new Date().getFullYear() }} {{ SITE_NAME }}. All rights reserved. &nbsp;Â·&nbsp; GSTIN {{ BUSINESS.gstin }}
+      © {{ new Date().getFullYear() }} {{ SITE_NAME }}. All rights reserved. &nbsp;·&nbsp; GSTIN {{ BUSINESS.gstin }}
     </div>
   </footer>
 </template>

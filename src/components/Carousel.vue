@@ -49,12 +49,12 @@ onBeforeUnmount(() => clearInterval(timer))
       class="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/15 hover:bg-white/30 backdrop-blur text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
       @click="prev"
       aria-label="Previous slide"
-    >â€¹</button>
+    >‹</button>
     <button
       class="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full bg-white/15 hover:bg-white/30 backdrop-blur text-white flex items-center justify-center opacity-0 group-hover:opacity-100 transition"
       @click="next"
       aria-label="Next slide"
-    >â€º</button>
+    >›</button>
 
     <!-- Dots -->
     <div class="absolute top-4 right-4 flex gap-1.5">

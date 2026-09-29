@@ -15,7 +15,7 @@ const featuredCount = computed(() => productStore.products.filter((p) => p.featu
 <template>
   <div>
     <h1 class="font-display text-2xl font-bold text-ink-900 mb-1">Overview</h1>
-    <p class="text-ink-500 mb-8">Manage your storefront catalog and client showcase â€” no developer needed.</p>
+    <p class="text-ink-500 mb-8">Manage your storefront catalog and client showcase no developer needed.</p>
 
     <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-10">
       <div class="card flex items-center gap-4">
@@ -44,7 +44,7 @@ const featuredCount = computed(() => productStore.products.filter((p) => p.featu
     <div class="grid md:grid-cols-2 gap-6">
       <div class="card">
         <h2 class="font-semibold text-ink-800 mb-3">Products</h2>
-        <p class="text-sm text-ink-500 mb-4">Add, edit, or remove wall clocks â€” including photos â€” from your public catalog.</p>
+        <p class="text-sm text-ink-500 mb-4">Add, edit, or remove wall clocks including photos from your public catalog.</p>
         <RouterLink to="/admin/products" class="btn-primary">Manage Products</RouterLink>
       </div>
       <div class="card">
